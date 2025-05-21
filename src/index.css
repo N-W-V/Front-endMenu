@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import "tailwindcss";
+
+@layer utilities {
+
+    /* container */
+    .container {
+        width: 100%;
+        padding: 0px 16px;
+    }
+
+    /* variables */
+
+    .font-oswald {
+        font-family: "Oswald", sans-serif;
+    }
+
+    /* generals */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    input,
+    textarea,
+    select {
+        outline: none;
+    }
+}
