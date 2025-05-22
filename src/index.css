@@ -6,7 +6,6 @@
     /* font */
     --font-oswlad: "Oswald", sans-serif;
     --font-poppins: "Poppins", sans-serif;
-
     /* color */
     --color-white: #Fff;
     --color-black: #252525;
@@ -51,6 +50,7 @@
 @layer utilities {
 
     /* container */
+    
     .container {
         width: 100%;
         padding: 0 16px;
