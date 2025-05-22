@@ -30,7 +30,7 @@ const Categories = () => {
                 >
                     <div
                         className={`flex items-center justify-center w-[65px] h-[80px] rounded-full transition-all ${index === activeIndex
-                                ? 'bg-yellow-400 text-white'
+                                ? 'bg-orange text-white'
                                 : 'bg-gray-100 text-black'
                             }`}
                     >

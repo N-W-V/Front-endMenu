@@ -10,7 +10,6 @@ export default function index() {
             <Hero />
             <Search />
             <Categories />
-
         </>
     )
 }
