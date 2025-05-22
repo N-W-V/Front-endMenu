@@ -1,9 +1,11 @@
 import './App.css'
+import Home from "./modules/Home"
 
 function App() {
   return (
     <>
-    <h1 className='font-oswald text-black '>ali</h1>
+    <Home />
+      
     </>
   )
 }
