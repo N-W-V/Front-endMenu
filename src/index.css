@@ -1,33 +1,12 @@
-@import "tailwindcss";
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 @import "tailwindcss";
 
-@layer utilities {
-
-    /* container */
-    .container {
-        width: 100%;
-        padding: 0px 16px;
-    }
-
-    /* variables */
-
-    .font-oswald {
-        font-family: "Oswald", sans-serif;
-    }
-
-    /* generals */
-
+@layer base {
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
-
-    button {
-        cursor: pointer;
     }
 
     a {
@@ -43,5 +22,44 @@
     textarea,
     select {
         outline: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+}
+
+@layer utilities {
+
+    /* container */
+    .container {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    /* variables */
+
+    .font-oswald {
+        font-family: "Oswald", sans-serif;
+    }
+
+    .text-white {
+        color: #fff;
+    }
+
+    .text-black {
+        color: #252525;
+    }
+
+    .text-orange {
+        color: #FCC21B;
+    }
+
+    .text-bg-gray {
+        color: #F2F2F2;
+    }
+
+    .text-gray {
+        color: #666666;
     }
 }
