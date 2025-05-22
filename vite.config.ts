@@ -18,7 +18,7 @@ export default defineConfig({
       manifest: {
         name: 'Vite React App',
         short_name: 'ViteApp',
-        start_url: '.',
+        start_url: '/',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#646cff',
