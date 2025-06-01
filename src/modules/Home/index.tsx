@@ -1,15 +1,17 @@
-import Header from "../../components/Header/Header";
-import Search from "../../components/Search/Search";
-import Categories from "./Components/Categories/Categories";
-import Hero from "./Components/Hero/Hero";
+import CatalogFilter from "../../components/CatalogFilter/CatalogFilter";
+import CatalogList from "./Components/Catalog/CatalogList";
+import RecoList from "./Components/RecoList/RecoList";
+import Search from "./Components/Search/Search";
+import Slider from "./Components/Slider/Slider";
 
 export default function index() {
     return (
         <>
-            <Header />
-            <Hero />
+            <Slider />
             <Search />
-            <Categories />
+            <CatalogFilter />
+            <CatalogList />
+            <RecoList />
         </>
     )
 }
