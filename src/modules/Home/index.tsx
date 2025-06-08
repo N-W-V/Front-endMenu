@@ -1,6 +1,6 @@
 import CatalogFilter from "../../components/CatalogFilter/CatalogFilter";
 import CatalogList from "./Components/Catalog/CatalogList";
-import RecoList from "./Components/RecoList/RecoList";
+import RecoList from "./Components/RecoList/PopularList";
 import Search from "./Components/Search/Search";
 import Slider from "./Components/Slider/Slider";
 

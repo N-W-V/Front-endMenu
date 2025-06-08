@@ -1,9 +1,21 @@
+import { CardActionArea } from "@mui/material";
 import { GoPlus } from "react-icons/go";
 
 export default function AddButton() {
+    const btnStyle = {
+        backgroundColor: "gray",
+        width: "38px",
+        height: "38px",
+        borderRadius: "50%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+    }
+    
     return (
-        <button className="bg-gray w-[38px] h-[38px] rounded-full flex items-center justify-center">
+        <CardActionArea
+            sx={btnStyle}>
             <GoPlus className="text-white text-[28px]" />
-        </button>
+        </CardActionArea>
     )
 }

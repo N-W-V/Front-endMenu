@@ -1,7 +1,7 @@
 import Foto1 from "../../../../assets/images/slider_foto_2.avif";
 import AddButton from "../../../../ui/AddButton/AddButton";
 
-export default function RecoCart() {
+export default function PopularCart() {
     return (
         <li className="bg-white flex gap-[12px] p-[8px] rounded-[16px] max-w-[260px] min-w-[260px] h-[116px]">
             <img className="w-[100px] h-[100px] rounded-[16px] object-cover" src={Foto1} alt="" />
